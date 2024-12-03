@@ -9,3 +9,53 @@
     @apply w-full h-full;
   }
 }
+
+.light {
+  /* Primary color */
+  --primary: 79, 217, 141; /* #4fd98d */
+
+  /* Surface */
+  --surface: 252, 252, 252; /* #fcfcfc */
+
+  /* Shadow */
+  --shadow: 139, 139, 139; /* #8b8b8b */
+
+  /* Background */
+  --background: 255, 255, 255; /* #ffffff */
+
+  /* Border */
+  --border: 201, 201, 201; /* #c9c9c9 */
+
+  /* Typography */
+  --typo-primary: 27, 27, 27; /* #1b1b1b */
+  --typo-secondary: 78, 78, 78; /* #4e4e4e */
+
+  /* Chip */
+  --chip-background: 243, 243, 243; /* #f3f3f3 */
+  --chip-typo: 148, 148, 148; /* #949494 */
+}
+
+.dark {
+  /* Primary color */
+  --primary: 79, 217, 141; /* #4fd98d */
+
+  /* Surface */
+  --surface: 29, 29, 29; /* #1d1d1d */
+
+  /* Shadow */
+  --shadow: 139, 139, 139; /* #8b8b8b */
+
+  /* Background */
+  --background: 13, 13, 13; /* #0d0d0d */
+
+  /* Border */
+  --border: 78, 78, 78; /* #4e4e4e */
+
+  /* Typography */
+  --typo-primary: 211, 211, 211; /* #d3d3d3 */
+  --typo-secondary: 166, 166, 166; /* #a6a6a6 */
+
+  /* Chip */
+  --chip-background: 39, 39, 39; /* #272727 */
+  --chip-typo: 156, 156, 156; /* #9c9c9c */
+}

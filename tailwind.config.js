@@ -5,46 +5,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#4FD98D",
-        surface: {
-          dark: "#1D1D1D",
-          DEFAULT: "#FCFCFC",
-          light: "#FCFCFC",
-        },
-        shadow: "#8B8B8B",
-        background: {
-          dark: "#0D0D0D",
-          DEFAULT: "#FFFFFF",
-          light: "#FFFFFF",
-        },
-        border: {
-          dark: "#4E4E4E",
-          DEFAULT: "#C9C9C9",
-          light: "#C9C9C9",
-        },
+        primary: "rgba(var(--primary))",
+        surface: "rgba(var(--surface))",
+        shadow: "rgba(var(--shadow))",
+        background: "rgba(var(--background))",
+        border: "rgba(var(--border))",
         typo: {
-          primary: {
-            dark: "#D3D3D3",
-            DEFAULT: "#1B1B1B",
-            light: "#1B1B1B",
-          },
-          secondary: {
-            dark: "#A6A6A6",
-            DEFAULT: "#4E4E4E",
-            light: "#4E4E4E",
-          },
+          primary: "rgba(var(--typo-primary))",
+          secondary: "rgba(var(--typo-secondary))",
         },
         chip: {
-          background: {
-            dark: "#272727",
-            DEFAULT: "#F3F3F3",
-            light: "#F3F3F3",
-          },
-          foreground: {
-            dark: "#9C9C9C",
-            DEFAULT: "#949494",
-            light: "#949494",
-          },
+          background: "rgba(var(--chip-background))",
+          typo: "rgba(var(--chip-typo))",
         },
       },
       screens: {
